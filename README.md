@@ -1,36 +1,25 @@
-# 🌸 Iris Flower Classification - CodeAlpha Internship
+# CodeAlpha Data Science Internship
 
-## Task 1 - Data Science Internship
+This repository contains my completed tasks for CodeAlpha Data Science Internship.
 
-### 📌 Objective
-Classify Iris flowers into 3 species (Setosa, Versicolor, Virginica) based on Sepal and Petal measurements.
+## 📁 Tasks Completed
 
-### 📂 Dataset
-- **Source:** Iris.csv (150 samples)
-- **Features:** SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm
-- **Target:** Species
-- **Distribution:** 50 samples per species (Balanced)
+### 1. Unemployment Analysis in India
+- **Folder:** `Unemployment-Analysis`
+- **Objective:** Analyze unemployment rate in India during Covid-19 lockdown
+- **Tools:** Python, Pandas, Plotly, Matplotlib
+- **Key Insight:** Unemployment spiked during 2020 lockdown
 
-### 🛠️ Tech Stack
-- Python
-- Pandas, Numpy
-- Matplotlib, Seaborn
-- Scikit-learn (RandomForestClassifier)
+### 2. Iris Flower Classification
+- **Folder:** `iris-flower`
+- **Objective:** Classify Iris flowers into 3 species (Setosa, Versicolor, Virginica)
+- **Tools:** Python, Scikit-learn, Pandas
+- **Model:** Logistic Regression / Random Forest
+- **Accuracy:** ~96%
 
-### ⚙️ Steps Performed
-1. Data Loading & Exploration
-2. Data Cleaning (Removed Id column)
-3. EDA - Species count plot
-4. Train-Test Split (80-20)
-5. Model Training - Random Forest
-6. Evaluation - Accuracy, Classification Report, Confusion Matrix
+## 👩‍💻 Author
+Darena Ponnamma
+CodeAlpha Intern - Data Science
 
-### 📊 Results
-- **Accuracy:** 100% (1.00)
-- **Model:** RandomForestClassifier (n_estimators=100)
-- All 3 species classified correctly.
-
-### 🚀 How to Run
-```bash
-pip install pandas scikit-learn matplotlib seaborn
-python c2.py
+## 🔗 Submission
+GitHub: https://github.com/DarenaPonnamma/codealpha_tasks
